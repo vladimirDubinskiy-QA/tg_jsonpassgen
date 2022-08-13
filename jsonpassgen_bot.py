@@ -6,7 +6,7 @@ from telebot import TeleBot, types
 import json
 import random
 
-bot = TeleBot(token='5432270499:AAF9Ea0nApNPfmzsr9gpLhOcwGOo4BuEAT0', parse_mode='html')  # создание бота
+bot = TeleBot(token='Ваш_токен', parse_mode='html')  # создание бота
 body = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';:^#.,"  # Набор, из которого собираем пароль
 length = 16  # Длина пароля
 password = ""
